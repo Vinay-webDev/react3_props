@@ -7,13 +7,18 @@
            <component key=value/> 
 */
 /*  numeric value you put inside {} */
+/* now using same component to pass 
+different data */
 import Student from './Student.jsx'
 
 function App() {
 
   return (
     <>
-      <Student name=" Iron clad" age= {25} fighter={true} />      
+      <Student name=" Iron clad" age= {25} fighter={true} />
+      <Student name=" Jack bulwark" age= {30} fighter={true} />
+      <Student name=" April" age= {25} fighter={false} />
+      <Student name=" lynx" age= {26} fighter={true} />       
     </>
   )
 }
